@@ -2,7 +2,7 @@
     "perl"        : "6.*",
     "name"        : "Dictionary::Create",
     "version"     : "*",
-    "description" : "Dictionary creating module",
+    "description" : "Dictionaries creating module",
     "depends"     : [ ],
     "license":    "Apache-License-2.0",
     "provides"    : {
