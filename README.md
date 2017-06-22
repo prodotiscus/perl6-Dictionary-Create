@@ -1,5 +1,4 @@
 # Example
-
 With `Dictionary::Create::DSL` you can create a dictionary article in .dsl format:
 ```perl6
 use Dictionary::Create;
@@ -8,7 +7,7 @@ $article.set-title('duck');
 my $meaning = $article.translation('a bird');
 my $section = $article.m-tag(1, $meaning);
 $article.append-line($section);
-say $article.give(); # will return the .dsl format article
+say $article.give(); # returns the .dsl article content
 ```
 
 # License
