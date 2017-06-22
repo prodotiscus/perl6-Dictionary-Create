@@ -9,6 +9,6 @@
         "Dictionary::Create"            : "lib/Dictionary/Create.pm",
         "Dictionary::Create::DSL"   : "lib/Dictionary/Create/DSL.pm"
     },
-    "source-url"  : "git://github.com/prodotiscus/perl6-dictionary-create.git"
+    "source-url"  : "git://github.com/prodotiscus/perl6-Dictionary-Create.git"
 }
 
