@@ -1,4 +1,7 @@
+[![Build Status](https://travis-ci.org/prodotiscus/perl6-Dictionary-Create.svg?branch=master)](https://travis-ci.org/prodotiscus/perl6-Dictionary-Create)
+
 # Example
+
 With `Dictionary::Create::DSL` you can create a dictionary article in .dsl format:
 ```perl6
 use Dictionary::Create;
