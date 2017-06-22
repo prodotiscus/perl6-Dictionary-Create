@@ -57,8 +57,12 @@ class Article {
 	method accent (Str $innerText) {
 		return "[']{$innerText}[/']";
 	}
-	method language (Str $lang where not $_ ~~ /[ \' || \" ]/, Str $innerText) {
-		return "[lang name=\"{$lang}\"]{$innerText}[/lang]";
+	method language (Hash %properties where $_.elems < 2, Str $innerText) {
+		return (
+			%properties.elems == 0
+			?? "[lang]"
+			!! "[lang {%properties.fmt('%s="%s"')}]"
+		) ~ "{$innerText}[/lang]";
 	}
 	method reference (Str $innerText) {
 		return "[ref]{$innerText}[/ref]";
