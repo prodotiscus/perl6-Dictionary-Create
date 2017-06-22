@@ -7,7 +7,7 @@ my $article = Dictionary::Create::DSL::Article.new;
 $article.set-title('duck');
 my $meaning = $article.translation('a bird');
 my $section = $article.m-tag(1, $meaning);
-$article.append_line($section);
+$article.append-line($section);
 say $article.give(); # will return the .dsl format article
 ```
 

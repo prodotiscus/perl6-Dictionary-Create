@@ -2,7 +2,7 @@
 unit class Dictionary::Create::DSL;
 class Article {
 	has Str $!content;
-	method append_line (Str $innerText) {
+	method append-line (Str $innerText) {
 		$!content ~= "\n\t$innerText";
 	}
 	method append (Str $innerText) {
