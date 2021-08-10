@@ -4,7 +4,7 @@
     "version"     : "*",
     "description" : "Dictionaries creating module",
     "depends"     : [ ],
-    "license":    "Apache-License-2.0",
+    "license":    "Apache-2.0",
     "provides"    : {
         "Dictionary::Create"            : "lib/Dictionary/Create.pm",
         "Dictionary::Create::DSL"   : "lib/Dictionary/Create/DSL.pm"
